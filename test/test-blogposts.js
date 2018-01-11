@@ -126,3 +126,28 @@ describe('PUT: modify a blog post', function() {
       });
   }); //end it
 }); //end describe
+
+//DELETE Endpoint Test
+
+describe('DELETE endpoint', function () {
+
+  it('delete a blogPost by id', function () {
+
+    let post;
+
+    return BlogPost
+      .findOne()
+      .then(_post => {
+        post = _post;
+        return chai.request(app)
+          .delete(`/posts/${post.id}`);
+      })
+      .then(res => {
+        res.should.have.status(204);
+        return BlogPost.findById(post.id);
+      })
+      .then(res => {
+        should.not.exist(res);
+      });
+  });//closes it block
+});//closes describe block
