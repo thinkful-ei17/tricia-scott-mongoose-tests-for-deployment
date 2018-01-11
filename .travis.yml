@@ -6,6 +6,6 @@ deploy:
   provider: heroku
   api_key:
     secure: XSjkrnxmCBBIXbCOJZtc+GBzDzkjRRvZSvmHRvB+tjTbCFwt0W+ePHijxsm+7mVFfmcHq6VXb3vIhyh/+cE0X2n6ALPheVERn+ZMxp8xYXOk4PMdgQ4JzJ+ke7CqAYJQ9t9wdcnxGmLhKA8B+ty6KCSAXQIV0PJNhSY4a36muU1xJLm4IK07TZWVE6qhZ5A5oikXUwOyrVcpQ8163SXwH+dyqcd7+S8K24zMIC6zPhZS3N/0fzHb2kIBVDpyxBGBedU5w2nps5ImgrWiIdkVJmwjG+HgUC6P5tixW0rRoPvi/y1JwUyIr2oqmbzukX+PkeQPRqfkyTjiTJyk90mASL5SPEvPK1xUIvjF8zPvWFr+ZkwmmmyERDNX7vK94XyeiWoCs15W8ZfdnM/0Zf8cXwsKWcoaryOoN8hSY1LR0EpEuNDa/fkuzbYUeqrE89DjIoXASaXhC9UsUV/iEaywRy2qFks7A4L6uONE2920TM8urpMJA6yP0iMvuOaQKKaRSSl+hBjLTJD43iRhgh22IIhzklpIUJ+ouz/X1eO4uyGccyP/jS3wL4dCZzSrLwByUX9nBN4fYFcVMLgdLcm/zgJ5uofKw4TDI4MThph5NI0KF6kR9d84i2cRci5ERDUflTEok8SK0Fbdw6QOj2RY9Yurrx12fh5Ej1bZs2xbpX0=
-  app: tricia-scott-mongoose-tests-for-deployment
-  on:
+  app: https://frozen-cliffs-87396.herokuapp.com
+  on: 
     repo: thinkful-ei17/tricia-scott-mongoose-tests-for-deployment
